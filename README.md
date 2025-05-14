@@ -1,5 +1,7 @@
 # MuLAAIP: Multi-Modality Representation Learning for Antibody-Antigen Interaction Prediction
 
+![MuLAAIP Pipeline](pipline.png)
+
 This repository contains the official implementation of **MuLAAIP**, a novel deep learning framework for predicting antibody-antigen interactions (AAI) by integrating **3D structural** and **1D sequence** data. Our approach addresses critical challenges in AAI prediction, including structural data scarcity, sequence-structure dependency modeling, and imbalanced label distributions.
 
 ## Key Features
