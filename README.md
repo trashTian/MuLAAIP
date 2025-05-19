@@ -33,14 +33,6 @@ pip install -r requirements.txt
 ```
 
 
-```
-# Train the model
-python train.py --config configs/mulaaip.yaml
-
-# Evaluate on benchmarks
-python evaluate.py --checkpoint saved_models/best.pth
-```
-
 ## Cite this work
 ```
 @article{guo2025multi,
