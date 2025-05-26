@@ -33,6 +33,22 @@ cd MuLAAIP
 # Install dependencies
 pip install -r requirements.txt
 ```
+## Data pre-processing
+(1) **1D Sequence Representation: use pre-trained protein (antibody) language models to process sequence data and obtain embeddings. For example, ProtTrans, ESM2, AbLang, AntiBERTy,BERT2DAb**
+```
+python PLM.py
+```
+> We have embedded and saved these sequences locally
+
+(2) **3D Structural Representation: construct fine-grained structural graph.**
+```
+python Dataset.py
+```
+
+## Cross-validation
+```
+python MuLAAIP.py
+```
 
 
 ## Cite this work
