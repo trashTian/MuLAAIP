@@ -47,7 +47,7 @@ python Dataset.py
 
 ## Cross-validation
 ```
-python MuLAAIP.py
+python train.py
 ```
 
 
